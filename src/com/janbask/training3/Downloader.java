@@ -9,10 +9,6 @@ import java.util.Date;
 
 public class Downloader implements DownloaderBase{
 
-    public Downloader(){}
-
-    public Downloader(SimpleLogger logger){}
-
     public void downloadFile(SimpleConfiguration configuration, Logger logger){
         BufferedInputStream inputStream = null;
         FileOutputStream fileOutputStream = null;
